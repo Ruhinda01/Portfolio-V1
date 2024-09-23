@@ -37,7 +37,8 @@ const Header = () => {
         <header className="header">
             <nav className='navbar'>
                 <div className="nav_left">
-                    <span className="location">Kampala, UG</span>
+                    <span className="city">KAMPALA,</span>
+                    <span className="country">UG</span>
                     <div className='time'>
                         <span className='hour'>{hour}</span>
                         <span className='colon' style={{ visibility: blink ? 'hidden' : 'visible' }}>:</span>
@@ -53,8 +54,8 @@ const Header = () => {
                     </span>
                 </div>
                 <div className='nav_right'>
-                    <button className='contact'>
-                        <span className='contact_text'>contact</span>
+                    <button className='contact' onClick={() => alert("Contact me!")}>
+                        <span className='contact_text'>CONTACT</span>
                     </button>
                 </div>
             </nav>

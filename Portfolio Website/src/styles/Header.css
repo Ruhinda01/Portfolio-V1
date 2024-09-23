@@ -1,3 +1,5 @@
+@import 'variables.css';
+
 .header {
     width: 100%;
     height: 130px;
@@ -5,10 +7,79 @@
     margin: 0;
 }
 
+
 .navbar {
     width: 100%;
     height: 100%;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* .nav_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+span {
+    color: var(--primary-text-color);
+    font-family: var(--body-font-family);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.city {
+    color: var(--secondary-text-color);
+}
+
+.country {
+    margin-left: 3px;
+    color: var(--secondary-text-color);
+}
+
+.colon {
+    margin: 0 2px 0 2px;
+}
+
+.timezone {
+    margin-left: 3px;
+}
+
+.nav_middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nav_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    background: none;
+    background-color: transparent;
+    padding: 12px 10px;
+    border-radius: 100px;
+    border: 1px solid var(--border-line-color);
+    color: var(--primary-text-color);
+}
+
+.contact_text {
+    text-align: center;
+    font-family: var(--body-font-family);
+    font-weight: bold;
+    font-size: 18px;
+    /* text-transform: capitalize; */
 }

@@ -1,0 +1,8 @@
+@import 'variables.css';
+
+body {
+    background-color: var(--background-color);
+    box-sizing: border-box;
+    padding-left: 39px;
+    padding-right: 39px;
+}
