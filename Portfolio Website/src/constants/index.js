@@ -54,7 +54,7 @@ export const PROJECTS = [
         title: 'RUHINDA',
         about: 'This is my portfolio website looking to exhibit my current and future works. Maybe it\'ll impress you enough to give me a shot.',
         images: [portfolio1, portfolio2, portfolio3, portfolio4],
-        link: '',
+        link: 'https://ruhinda.vercel.app/',
         technologies: ['React', 'Vite', 'JavaScript', 'HTML', 'CSS']
     }
 ]
