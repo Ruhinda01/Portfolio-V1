@@ -54,7 +54,14 @@ const Header = () => {
                     </span>
                 </div>
                 <div className='nav_right'>
-                    <button className='contact' onClick={() => alert("Contact me!")}>
+                    <button
+                        className='contact'
+                        onClick={() => {
+                            const contactSection = document.getElementById('contact');
+                            if (contactSection) {
+                                contactSection.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        }}>
                         <span className='contact_text'>CONTACT</span>
                     </button>
                 </div>
