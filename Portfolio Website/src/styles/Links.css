@@ -1,0 +1,38 @@
+@import './variables.css';
+
+
+.link-list {
+    list-style-type: none;
+}
+
+.arrow-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.links-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-family: var(--body-font-family);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.social-link:hover, .social-link:active {
+    color: var(--primary-text-color);
+}
+
+.email-link {
+    color: var(--secondary-text-color);
+    font-family: var(--body-font-family);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+}

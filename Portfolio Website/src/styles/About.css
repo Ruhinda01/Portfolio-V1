@@ -1,0 +1,146 @@
+@import './variables.css';
+
+
+.about-skill {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.full-about {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.about-content {
+    grid-column: 8 / span 4;
+    grid-row: 1;
+}
+
+.skill-container {
+    grid-column: 2 / span 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-title, .about-title {
+    font-size: 16px;
+    font-family: var(--body-font-family);
+    font-weight: bold;
+    letter-spacing: 1.5%;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.skill-list {
+    margin-top: 0;
+}
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 992px) {
+    .full-about {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-content {
+        grid-column: 5 / span 8;
+    }
+
+    .skill-container {
+        grid-column: 1 / span 12;
+    }
+
+    .skill-title, .about-title {
+        font-size: 14px;
+    }
+
+    .skill-list {
+        font-size: 14px;
+    }
+
+    .about-skill {
+        margin-top: 50px;
+    }
+
+    .about-title {
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .about-skill {
+        margin-top: 50px;
+    }
+    
+
+    .about-title {
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+
+    .about-content {
+        grid-column: 1 / span 12;
+        grid-row: 1;
+    }
+
+    .skill-container {
+        grid-column: 1 / span 12;
+        grid-row: 2;
+    }
+
+    .skill-title, .about-title {
+        font-size: 14px;
+    }
+
+    .skill-list {
+        font-size: 14px;
+    }
+
+    .about-skill {
+        margin-top: 50px;
+    }
+
+    .about-title {
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .about-skill {
+        margin-top: 20px;
+    }
+
+    .skill-title, .about-title {
+        font-size: 12px;
+    }
+
+    .skill-list {
+        font-size: 12px;
+    }
+}

@@ -22,11 +22,12 @@ export const HERO_CONTENT = {
     title: 'ENGINEER'
 }
 
-export const HERO_TEXT = 'I\'m Ruhinda Roderick Izooba, a graduate Architect turned Front-end engineer looking to create functional and aesthetically pleasing user interfaces and experiences.';
+export const HERO_TEXT = 'I\'m Ruhinda Roderick Izooba, a graduate Architect turned Software engineer looking to create functional and aesthetically pleasing user interfaces and experiences.';
 
 export const PROJECTS = [
     {
-        id: '01',
+        id: 1,
+        projectNumber: '01',
         title: 'ARTELEVATE',
         about: 'ArtElevate is a online art gallery aiming to respond to local, well known artists, collectors, art enthusiasts and the casual user indulging in everything art. Artists can create their profiles, upload their artwork on to the platform, sell their artwork on the platform and also check out works from other artists.',
         images: [artelevate1, artelevate2, artelevate3, artelevate4, artelevate5, artelevate6, artelevate7, artelevate8, artelevate9],
@@ -34,7 +35,8 @@ export const PROJECTS = [
         technologies: ['HTML', 'CSS', 'Bootstrap', 'Python', 'Flask', 'Jinja', 'Balsamiq']
     },
     {
-        id: '02',
+        id: 2,
+        projectNumber: '02',
         title: 'FOCUS',
         about: 'Focus is a feature-rich, gamified platform designed to help users manage their daily tasks efficiently. The application integrates a Pomodoro timer, drag and drop task prioritzation and health and experience tracking to make task management engaging and productive.',
         images: [focus1, focus2, focus3, focus4, focus5, focus6],
@@ -42,7 +44,8 @@ export const PROJECTS = [
         technologies: ['React', 'JavaScript', 'HTML', 'CSS', 'Figma']
     },
     {
-        id: '03',
+        id: 3,
+        projectNumber: '03',
         title: 'RUHINDA',
         about: 'This is my portfolio website looking to exhibit my current and future works. Maybe it\'ll impress you enough to give me a shot.',
         images: [],
@@ -64,9 +67,9 @@ export const ABOUT_CONTENT = {
 
 export const CONTACT = 'Ready to slide into my DMs? Whether you want to swap big  ideas, collaborate on something epic, or argue about which Star Wars movie reigns supreme (spoiler: Its not what you think), Hit me up! I might be knee-deep perfecting CSS grids or discovering new ways to automate my life, but I promise, your message will get through.';
 
-export const socials = {
-    twitter: 'https://twitter.com/ricky_ruhinda',
-    linkedIn: 'www.linkedin.com/in/ruhinda-roderick-izooba',
-    email: 'rickyruhinda@gmail.com',
+export const LINKS = {
+    TWITTER: 'https://twitter.com/ricky_ruhinda',
+    LINKEDIN: 'https://www.linkedin.com/in/ruhinda-roderick-izooba',
+    EMAIL: 'mailto:rickyruhinda@gmail.com',
 }
 
