@@ -121,6 +121,18 @@ const ProjectDrawer = ({ project, isExpanded, onExpand }) => {
                                     ))}
                                 </ul>
                             </div>
+                            {project.github && (
+                                <div className='github-link-container'>
+                                    <a
+                                        href={project.github}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className='github-link'
+                                        onClick={(e) => e.stopPropagation()}>
+                                        <span>Github</span>
+                                    </a>
+                                </div>
+                            )}
                         </div>
                         
                     </div>

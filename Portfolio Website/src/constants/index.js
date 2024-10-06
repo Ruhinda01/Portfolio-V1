@@ -37,6 +37,7 @@ export const PROJECTS = [
         about: 'ArtElevate is a online art gallery aiming to respond to local, well known artists, collectors, art enthusiasts and the casual user indulging in everything art. Artists can create their profiles, upload their artwork on to the platform, sell their artwork on the platform and also check out works from other artists.',
         images: [artelevate1, artelevate2, artelevate3, artelevate4, artelevate5, artelevate6, artelevate7, artelevate8, artelevate9],
         link: 'https://artelevate.onrender.com/',
+        github: 'https://github.com/Ruhinda01/Artelevate',
         technologies: ['HTML', 'CSS', 'Bootstrap', 'Python', 'Flask', 'Jinja', 'Balsamiq']
     },
     {
@@ -46,6 +47,7 @@ export const PROJECTS = [
         about: 'Focus is a feature-rich, gamified platform designed to help users manage their daily tasks efficiently. The application integrates a Pomodoro timer, drag and drop task prioritzation and health and experience tracking to make task management engaging and productive.',
         images: [focus1, focus2, focus3, focus4, focus5, focus6],
         link: 'https://focus-opal-delta.vercel.app/',
+        github: 'https://github.com/Ruhinda01/Focus',
         technologies: ['React', 'JavaScript', 'HTML', 'CSS', 'Figma']
     },
     {
@@ -55,6 +57,7 @@ export const PROJECTS = [
         about: 'This is my portfolio website looking to exhibit my current and future works. Maybe it\'ll impress you enough to give me a shot.',
         images: [portfolio1, portfolio2, portfolio3, portfolio4],
         link: 'https://ruhinda.vercel.app/',
+        github: 'https://github.com/Ruhinda01/Portfolio-V1',
         technologies: ['React', 'Vite', 'JavaScript', 'HTML', 'CSS']
     }
 ]
