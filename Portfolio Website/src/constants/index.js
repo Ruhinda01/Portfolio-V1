@@ -14,6 +14,11 @@ import focus3 from '../assets/PROJECT_IMAGES/FOCUS/focus-02.webp';
 import focus4 from '../assets/PROJECT_IMAGES/FOCUS/focus-03.webp';
 import focus5 from '../assets/PROJECT_IMAGES/FOCUS/focus-04.webp';
 import focus6 from '../assets/PROJECT_IMAGES/FOCUS/focus-05.webp';
+import portfolio1 from '../assets/PROJECT_IMAGES/PORTFOLIO/Portfolio-01.webp';
+import portfolio2 from '../assets/PROJECT_IMAGES/PORTFOLIO/Portfolio-02.webp';
+import portfolio3 from '../assets/PROJECT_IMAGES/PORTFOLIO/Portfolio-03.webp';
+import portfolio4 from '../assets/PROJECT_IMAGES/PORTFOLIO/Portfolio-04.webp';
+
 
 export const HERO_CONTENT = {
     front: 'FRONT',
@@ -48,7 +53,7 @@ export const PROJECTS = [
         projectNumber: '03',
         title: 'RUHINDA',
         about: 'This is my portfolio website looking to exhibit my current and future works. Maybe it\'ll impress you enough to give me a shot.',
-        images: [],
+        images: [portfolio1, portfolio2, portfolio3, portfolio4],
         link: '',
         technologies: ['React', 'Vite', 'JavaScript', 'HTML', 'CSS']
     }
