@@ -11,7 +11,6 @@ Welcome to my personal portfolio website, where I showcase my projects, skills a
   - [**Tech Stack**](#tech-stack)
   - [**Sections Overview**](#sections-overview)
   - [**Installation**](#installation)
-  - [**Usage**](#usage)
 
 ## **Introduction**
 
