@@ -4,13 +4,14 @@ Welcome to my personal portfolio website, where I showcase my projects, skills a
 
 ## **Table of Contents**
 
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-4. [Sections Overview](#sections-overview)
-5. [Installation](#installation)
-6. [Usage](#usage)
-7. [License](#license)
+- [**RUHINDA RODERICK IZOOBA - PORTFOLIO WEBSITE**](#ruhinda-roderick-izooba---portfolio-website)
+  - [**Table of Contents**](#table-of-contents)
+  - [**Introduction**](#introduction)
+  - [**Features**](#features)
+  - [**Tech Stack**](#tech-stack)
+  - [**Sections Overview**](#sections-overview)
+  - [**Installation**](#installation)
+  - [**Usage**](#usage)
 
 ## **Introduction**
 
@@ -25,3 +26,50 @@ This portfolio is a one-page website designed to highlight my skills and experie
 
 ## **Tech Stack**
 
+* Frontend Framework: React(with Vite)
+* CSS: Custom CSS
+* JavaScript: Vanilla JavaScript and ES6+ features
+* Deployment: Vercel
+* Version Control: Git and GitHub
+
+## **Sections Overview**
+
+1. Hero Section:
+    * A brief introduction about my journey to becoming an engineer and my mission.
+2. Projects:
+    * Showcasing my most significant projects, including a brief description, technologies used, and live demos where applicable.
+3. About:
+    * A deeper dive into my background, what drives me as developer, and my vision for the future.
+4. Skills:
+    * Displaying the programming languages, frameworks, tools and technologies I am proficient in.
+5. Get in Touch:
+    * Contact information.
+
+## **Installation**
+
+To run the portfolio locally:
+1. Clone the repository
+   
+   ```
+   git clone https://github.com/Ruhinda01/Portfolio-V1.git
+   ```
+
+2. Navigate to the project directory
+   
+   ```
+   cd Portfolio Website
+   ```
+
+3. Install dependencies
+   
+   ```
+   npm install
+   ```
+
+4. Run the project
+   
+   ```
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:3000` to view the portfolio.
