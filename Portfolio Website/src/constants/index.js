@@ -18,6 +18,13 @@ import portfolio1 from '../assets/PROJECT_IMAGES/PORTFOLIO/Portfolio-01.webp';
 import portfolio2 from '../assets/PROJECT_IMAGES/PORTFOLIO/Portfolio-02.webp';
 import portfolio3 from '../assets/PROJECT_IMAGES/PORTFOLIO/Portfolio-03.webp';
 import portfolio4 from '../assets/PROJECT_IMAGES/PORTFOLIO/Portfolio-04.webp';
+import BookStore1 from '../assets/PROJECT_IMAGES/BOOK_STORE/BookStore_01.webp';
+import BookStore2 from '../assets/PROJECT_IMAGES/BOOK_STORE/BookStore_02.webp';
+import BookStore3 from '../assets/PROJECT_IMAGES/BOOK_STORE/BookStore_03.webp';
+import BookStore4 from '../assets/PROJECT_IMAGES/BOOK_STORE/BookStore_04.webp';
+import Recipe1 from '../assets/PROJECT_IMAGES/RECIPE/Recipe-01.webp';
+import Recipe2 from '../assets/PROJECT_IMAGES/RECIPE/Recipe-02.webp';
+import Recipe3 from '../assets/PROJECT_IMAGES/RECIPE/Recipe-03.webp';
 
 
 export const HERO_CONTENT = {
@@ -59,11 +66,31 @@ export const PROJECTS = [
         link: 'https://ruhinda.vercel.app/',
         github: 'https://github.com/Ruhinda01/Portfolio-V1',
         technologies: ['React', 'Vite', 'JavaScript', 'HTML', 'CSS']
+    },
+    {
+        id: 4,
+        projectNumber: '04',
+        title: 'BOOKSTORE',
+        about: 'This is a full stack application developed with the MERN stack. It is a CRUD application that allows users to create, read, update and delete books. Frontend still in development but functionality of application was most important.',
+        images: [BookStore1, BookStore2, BookStore3, BookStore4],
+        link: 'https://book-store-mern-stack-chi.vercel.app/',
+        github: 'https://github.com/Ruhinda01/BookStore-MERN-Stack',
+        technologies: ['React', 'Vite', 'JavaScript', 'HTML', 'CSS', 'Node', 'Express', 'MongoDB']
+    },
+    {
+        id: 5,
+        projectNumber: '05',
+        title: 'RECIPE',
+        about: 'This is a Frontend Mentor project that I built to practice React and Tailwind. It is a recipe app that allows users to search for recipes based on ingredients or instructions.',
+        images: [Recipe1, Recipe2, Recipe3],
+        link: 'https://recipe-website-ruhindas-projects.vercel.app/',
+        github: 'https://github.com/Ruhinda01/RecipeWebsite',
+        technologies: ['React', 'Vite', 'JavaScript', 'HTML', 'Tailwind CSS']
     }
 ]
 
 export const SKILLS = [
-    'React', 'JavaScript', 'HTML', 'CSS', 'Python', 'Bootstrap', 'Tailwind', 'Git', 'Tailwind', 'Figma', 'TypeScript', 'Vite'
+    'React', 'JavaScript', 'HTML', 'CSS', 'Python', 'Bootstrap', 'Tailwind CSS', 'Git', 'Tailwind', 'Figma', 'TypeScript', 'Vite', 'Node', 'Express', 'MongoDB'
 ]
 
 export const ABOUT_CONTENT = {
