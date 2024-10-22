@@ -90,7 +90,7 @@ export const PROJECTS = [
 ]
 
 export const SKILLS = [
-    'React', 'JavaScript', 'HTML', 'CSS', 'Python', 'Bootstrap', 'Tailwind CSS', 'Git', 'Tailwind', 'Figma', 'TypeScript', 'Vite', 'Node', 'Express', 'MongoDB'
+    'React', 'JavaScript', 'HTML', 'CSS', 'Python', 'Bootstrap', 'Tailwind CSS', 'Git', 'Figma', 'TypeScript', 'Vite', 'Node', 'Express', 'MongoDB'
 ]
 
 export const ABOUT_CONTENT = {
