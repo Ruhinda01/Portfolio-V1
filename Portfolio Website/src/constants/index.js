@@ -95,7 +95,7 @@ export const SKILLS = [
 
 export const ABOUT_CONTENT = {
     para_1: 'Architect turned code wrangler here!',
-    para_2: 'Last year, I swapped T-squares for JavaScript, Python and haven\'t looked back. After a 12-month software engineering bootcamp (and countless cups of coffee), I graduated from ALX Africa with a shiny front-end software engineering certificate.',
+    para_2: 'Last year, I swapped T-squares for JavaScript, Python and haven\'t looked back. After a 12-month software engineering bootcamp (and countless cups of coffee), I graduated from ALX Africa with a shiny full-stack / front-end software engineering certificate.',
     para_3: 'My secret sauce? A dash of design flair, a sprinkle of critical thinking, and a heaping teaspoon of attention to detail. I\'m on a mission to craft functional, efficient, and eye-catching web application that make users go “Wow!”',
     para_4: 'P.S. My goal is to become the Da Vinci of front-end engineering - minus the long beard. Let\'s create some digital masterpieces together.',
 }
